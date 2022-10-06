@@ -49,7 +49,7 @@ To run tests you can use
 
 The architeture consists in provide fast response with the scalability, the php code must be in a load balancer so can receive a infra upgrade without any trouble. I recommend to use a Redis database to save route cache responses.
 
-The SQL replicas are good to use in case of need of intense sql reads but in most cases(of this shortener), only a central database can maintein the requests becase the most routes are saved inside a cache system.
+The SQL replicas are good to use in case of need of intense sql reads but in most cases(of this shortener), only a central database can maintein the requests because the most routes are saved inside a cache system.
 
 <p align="center">
     <img src="/docs/flowcharts/scalable_architecture.jpg" width="450" title="Scalable Architecture">
