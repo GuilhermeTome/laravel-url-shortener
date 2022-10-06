@@ -3,12 +3,10 @@
 namespace Tests\Unit\Services;
 
 use App\Services\HashGenerator;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 
 class HashGeneratorTest extends TestCase
 {
-    use DatabaseMigrations;
 
     /**
      * @return void
