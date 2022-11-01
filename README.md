@@ -1,6 +1,6 @@
 ## Laravel URL Shortener
 
-A simple URL shotener with a very scalable architecture to use in any project
+A simple URL shortener with a very scalable architecture to use in any project
 
 ## About project
 
